@@ -1,0 +1,10 @@
+.img-fluid{
+    max-width: 100% ;
+    height: auto;
+}
+.body{
+    margin: auto;
+    padding: 20px;
+    background-color:  #21c6dc;
+    text-align: center;
+}

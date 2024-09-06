@@ -1,0 +1,36 @@
+{% extends "app/layout.html" %}
+{% load static %}
+{% block content %}
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="{% static 'app/home1.jpg' %}" class="img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img src="{% static 'app/home2.jpg' %}" class="img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img src="{% static 'app/home3.jpg' %}" class="img-fluid" alt="...">
+    </div>
+    </div>
+</div>
+    <div class="container-lg">
+        <h2>Our Aim</h2>
+        <ul>
+            <li>TO BE A FOUNDATION BASED ASSOCIATION. TO ASSIST POTENTIAL AND ACTUAL ENTREPRENEURS TO ACQUIRE, DEVELOP, IMPROVE AND SUSTAIN ENTREPRENEURIAL SKILLS.</li>
+            <li>TO PROTECT AND SEEK THE INTERESTS OF ENTREPRENEURS, AND TO ASSIST INTERESTED PERSONS IN ACQUIRING ENTREPRENEUR SKILLS.</li>
+            <li>TO RENDER ASSISTANCE WHETHER FINANCIAL OR MATERIAL TO ENTREPRENEURS, AND TO SERVE AS A RALLYING POINT FOR ENTREPRENEURS.</li>
+            <li>TO EMPOWER ENTREPRENEURS THROUGH WORKSHOPS, SEMINARS, AND ACQUISITION OF VOCATIONAL AND BUSINESS SKILLS.</li>
+            <li>TO HELP AND GIVE ASSISTANCE TO THE LESS PRIVILEGE AND THE NEEDY IN THE SOCIETY.</li>
+            <li>TO PARTNER WITH INDIVIDUALS, OTHER FOUNDATIONS, NON-GOVERNMENTAL ORGANIZATIONS, OR GOVERNMENT AGENCIES, TO ACHIEVE THE ABOVE OBJECTIVES OR ANY OF THEM.</li>
+        </ul>
+        <h1>Our Mission:    </h1>
+        <p>
+            We are a foundation-based association dedicated to supporting entrepreneurs at every stage of their 
+            journey. Our goal is to equip individuals with the skills, resources, and network needed to succeed
+            in business and make a positive impact on society.
+        </p>
+    </div>
+
+{% endblock content %}
